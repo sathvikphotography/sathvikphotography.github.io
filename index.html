@@ -28,6 +28,7 @@ html, body{
 
 .col-md-2, .col-md-3, .col-md-4{
     display: none;
+    
 }
     
 .blueimp-gallery>.slides>.slide>.slide-content, .blueimp-gallery>.prev, .blueimp-gallery>.next, .blueimp-gallery>.close, .blueimp-gallery>.play-pause{
@@ -35,7 +36,7 @@ html, body{
     }
     
 #center-cropped{
-    opacity: 1;
+    opacity: 0.8;
     transition: 0.2s ease-in-out;
 }
     
@@ -43,6 +44,7 @@ html, body{
     opacity: 1;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
+    
 }  
 </style>
 </head>
@@ -63,10 +65,10 @@ html, body{
         <div class="row" style="height:25%;"> 
             <div class="col-md-2" style="height:100%;padding:1px;">
                 <h3 style="z-index:2;position:absolute;margin-top:5px;margin-left:5px;">Birds</h3>
-                <img id="center-cropped" src="img/thumbnail/birds.jpg" style="height:100%;width:100%;"> 
+                <img id="center-cropped" class="img-responsive" src="img/thumbnail/birds.jpg" style="height:100%;width:100%;"> 
             </div>
             <div class="col-md-3" id="center-cropped" style="height:100%;padding:5px;">
-                <h2 style="padding:10px;">Sathvik </br>Photography</h2>
+                <h2 style=" text-align:center;">Sathvik </br>Photography</h2>
             </div>
             <div class="col-md-3" style="height:100%;padding:1px;">
                 <h3 style="z-index:2;position:absolute;margin-top:5px;margin-left:5px;">Abstract</h3>
@@ -92,7 +94,7 @@ html, body{
                 <img id="center-cropped" src="img/thumbnail/butterfly.jpg" style="height:100%;width:100%;">
             </div>
             <div class="col-md-2" id="center-cropped" style="height:100%;padding:1px;">
-                <h3 style="padding:10px;" >Photo essays</h3>
+                <h3 style="text-align:center;" >Photo essays</h3>
             </div>
             <div class="col-md-2" style="height:100%;padding:1px;">
                 <h3 style="color:white;z-index:2;position:absolute;margin-top:5px;margin-left:5px;">Portraiture</h3>
@@ -103,7 +105,9 @@ html, body{
         <div class="row" style="height:25%;">
             <div class="col-md-4" id="center-cropped" style="height:100%;padding:1px;">
                 <div  style="width:100%;">
-                    <div class="row"  style="margin-right:0px;margin-left:10px;"><h3>Follow me on : </h3></div>
+                    <div class="row"  style="margin-right:0px;margin-left:10px;">
+                        <h3>Follow me on : </h3>
+                    </div>
                     <div class="row" style="margin-right:0px;margin-left:10px;">
                          <a href="https://500px.com/sathvikphotography">
                             <img id="center-cropped" style="width:40px;height:40px;margin-top:auto;" src="icons/500px_follow.png" />
@@ -150,7 +154,7 @@ html, body{
                 <img id="center-cropped" src="img/thumbnail/ranganatittu.jpg" style="height:100%;width:100%;">
             </div>
              <div class="col-md-3" id="center-cropped" style="height:100%;padding:1px;">
-                <h3 style="padding:20px;">
+                <h3 style="text-align:center;">
                     About me
                 </h3>
             </div>
@@ -158,8 +162,8 @@ html, body{
                 <img id="center-cropped" src="img/thumbnail/birds.jpg" style="height:100%;width:100%;">
             </div>
             <div class="col-md-2" id="center-cropped" style="height:100%;padding:1px;">
-                <div class="row" style="margin-left:10px;"><h3>ALL</h3></div>
-                <div class="row" style="margin-left:10px;"><p>(slide show)</p></div>
+                <div class="row" style="margin-left:10px;text-align:center;"><h3>ALL</h3></div>
+                <div class="row" style="margin-left:10px;text-align:center;"><p>(slide show)</p></div>
             </div>
         </div>
     </div>
